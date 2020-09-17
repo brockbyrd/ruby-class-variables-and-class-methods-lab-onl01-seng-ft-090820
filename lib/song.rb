@@ -20,7 +20,7 @@ class Song
   end
 
   def self.artists
-    @@artists
+    @@artists unless artists.include?(artists)
   end
 
   def self.genres
