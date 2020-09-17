@@ -20,7 +20,7 @@ class Song
   end
 
   def self.artists
-    @@artists unless { |a| a == artist}
+    @@artists unless { |a| a == artist }
   end
 
   def self.genres
