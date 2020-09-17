@@ -17,12 +17,4 @@ class Song
     @@count
   end
 
-  self.artists
-    @@artists
-  end
-
-  self.genres
-    @@genres
-  end
-
 end
