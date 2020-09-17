@@ -27,4 +27,12 @@ class Song
     @@genres = @@genres.uniq
   end
 
+  def genre_count
+    {genres: @@genres.length}
+  end
+
+  def artist_count
+
+  end
+
 end
