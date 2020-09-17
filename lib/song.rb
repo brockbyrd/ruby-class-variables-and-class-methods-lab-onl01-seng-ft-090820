@@ -20,7 +20,7 @@ class Song
   end
 
   def self.artists
-    @@artists unless @@artists.include?(artists)
+    @@array.uniq
   end
 
   def self.genres
