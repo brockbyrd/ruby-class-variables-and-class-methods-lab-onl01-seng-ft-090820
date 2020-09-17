@@ -20,7 +20,9 @@ class Song
   end
 
   def self.artists
-    @@artists
+    @@artists.each do unless { |a| a == a }
   end
+
+  def self.genres
 
 end
