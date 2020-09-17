@@ -28,7 +28,9 @@ class Song
   end
 
   def genre_count
-    genres: @@genres.length
+    self.each do |genre, count|
+      genre.length
+    end
   end
 
   def artist_count
