@@ -28,7 +28,7 @@ class Song
   end
 
   def genre_count
-    {genres: @@genres.length}
+    genres: @@genres.length
   end
 
   def artist_count
